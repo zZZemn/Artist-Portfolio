@@ -17,7 +17,7 @@
 
 .projects-container img {
     margin: 5px 10px;
-    outline: 2px solid rgb(192, 0, 0);
-    border: 4px solid rgb(0, 0, 0);
+    outline: 1px solid rgb(192, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 5px;
 }

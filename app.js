@@ -33,9 +33,7 @@ const topFunction = () => {
     document.documentElement.scrollTop = 0; //Chrome, Firefox, IE and Opera
 }
 
-
-
-function addingImages() {
+const addingImages = () => {
     for (var i = 1; i <= 14; i++) {
         var image = document.createElement("img");
         image.setAttribute("src", "/Images/"+i+".jpg");
@@ -43,15 +41,14 @@ function addingImages() {
         image.setAttribute("width", "300px");
         document.querySelector(".projects-container").appendChild(image);
    }
-}
+}  //Image gallery
 
-
-const functionCall = () => {
+const execute = () => {
 navBGshow();
 navSlide();
 topFunction();
 addingImages()
 }
 
-functionCall();
+execute();
 
