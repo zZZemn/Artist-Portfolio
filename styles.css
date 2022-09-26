@@ -8,6 +8,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color:black;
+    scroll-behavior: smooth;
 }
 
 nav {
@@ -111,16 +112,11 @@ nav {
     text-shadow: 3px 0 rgb(14, 14, 14), 0 0px black, 0px 0 black, 0 0px black;
 }   
 
-.services {
+.container-main {
     position: relative;
     height: 90vh;
-    max-width: 100%;
     margin-top: 20vh;
-    text-align: center;
     padding-top: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .services-title {
@@ -130,35 +126,47 @@ nav {
     text-shadow: 5px 0 rgb(255, 0, 0), 0 0px black, 0px 0 black, 0 0px black;
     text-align: center;
     letter-spacing: 5px;
-    padding-bottom: 30px;
 }
 
-.services-contents {
+.container-container {
     position: relative;
-    width: 60%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
-.services-contents div {
+.container {
     position: relative;
+    text-align: center;
     height: 400px;
     width: 300px;
-}
+    border: 1px red solid;
+    margin: 30px;
+  }
 
-.services-contents div img {
+  .container img {
     height: 100%;
     width: 100%;
-}
+  }
 
-.services-contents h1 {
+.text {
+    font-size: 15px;
+    font-weight: 600;
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.text-charcoal {
     color: white;
-    height: 100%;
-    width: 100%;
-    background-color: blue;
+    font-size: 15px;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-    
+  
 
 #myBtn {
     position: fixed;
