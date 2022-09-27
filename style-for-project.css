@@ -27,3 +27,19 @@
     border: 2px solid rgb(0, 0, 0);
     border-radius: 5px;
 }
+
+@media (max-width: 450px) {
+    .project-title {
+        font-size: 35px;
+    }
+
+    .projects-container img {
+        height: 300px;
+        width: 250px;
+    }
+
+    .container-project {
+        margin-top: 15vh;
+    }
+    
+}

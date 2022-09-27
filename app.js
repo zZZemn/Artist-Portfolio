@@ -46,7 +46,6 @@ const addingImages = () => {
 const execute = () => {
 navBGshow();
 navSlide();
-topFunction();
 addingImages()
 }
 

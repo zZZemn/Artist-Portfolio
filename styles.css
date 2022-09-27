@@ -78,12 +78,16 @@ nav {
     justify-content: center;
 }
 
-.home img{
+.home-cover {
     position: absolute;
     height: auto;
     max-width: 100%;
     opacity: 0.4;    
 }   
+
+.phone-cover {
+    display: none;
+}
 
 .full-name {
     position: absolute;
@@ -430,23 +434,52 @@ nav {
         font-size: 16px; /* Increase font size */
       }
 
+      .container-container {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 }
 
 @media (max-width: 450px) {
     .full-name {
-        font-size: 50px;
-        margin-top: 5vh;
+        font-size: 40px;
+        margin-top: 22vh;
     }
     
     .des {
-        font-size: 17px;
-        margin-top: 11.5vh;
+        font-size: 15px;
+        margin-top: 29.5vh;
     }
     
     .des2 {
-        font-size: 15px;
-        margin-top: 14vh;
+        font-size: 13px;
+        margin-top: 32.5vh;
     }
+
+    .services-title {
+        font-size: 35px;
+        padding-top: 70px;
+    }
+
+    .container {
+        height: 300px;
+        width: 250px;
+    }
+    
+    .home-cover {
+        display: none;
+    }
+    .phone-cover {
+        display: block;
+        height: 80vh;
+        width: 100%;
+        opacity: .5;
+    }
+
+    
 }
 
 
