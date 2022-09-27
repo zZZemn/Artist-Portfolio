@@ -28,6 +28,13 @@
     border-radius: 5px;
 }
 
+@media (max-width: 550px) {
+    .container-project {
+        margin-top: 10vh;
+    }
+    
+}
+
 @media (max-width: 450px) {
     .project-title {
         font-size: 35px;
