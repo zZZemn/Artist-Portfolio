@@ -28,6 +28,12 @@
     border-radius: 5px;
 }
 
+@media (max-width: 850px) {
+    .container-project {
+        margin-top: 70vh;
+    }
+}
+
 @media (max-width: 550px) {
     .container-project {
         margin-top: 10vh;
