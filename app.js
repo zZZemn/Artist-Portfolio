@@ -36,7 +36,7 @@ const topFunction = () => {
 const addingImages = () => {
     for (var i = 1; i <= 14; i++) {
         var image = document.createElement("img");
-        image.setAttribute("src", "/Images/"+i+".jpg");
+        image.setAttribute("src",+ i +".jpg");
         image.setAttribute("height", "400px");
         image.setAttribute("width", "300px");
         document.querySelector(".projects-container").appendChild(image);
