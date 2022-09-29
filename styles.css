@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     outline: none;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -423,7 +424,7 @@ footer {
         width: 100%;
         transform: translateY(-200%);
         transition: transform 0.5s ease-in;
-        padding-bottom: 10px;
+        padding-bottom: 15px;
         border: 1px solid black;
         border-left: 0;
         border-right: 0;
